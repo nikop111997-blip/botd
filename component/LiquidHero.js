@@ -93,7 +93,7 @@ export default function LiquidHero() {
   }, [mouseX, mouseY, filterScale]);
 
   return (
-    <section className="relative w-full h-[70vh] overflow-hidden bg-[#ef3322] cursor-none font-sans flex flex-col justify-start pt-8 px-2">
+    <section className="relative w-full h-[70vh] overflow-hidden bg-[#ef3322] cursor-none font-sans flex flex-col justify-start pt-0 sm:pt-8 px-2">
       
       {/* SVG FILTER */}
       <svg className="hidden" aria-hidden="true">
@@ -181,7 +181,7 @@ export default function LiquidHero() {
       )}
 
       {/* TEXT CONTENT */}
-      <div className="relative z-20 flex flex-col w-full uppercase text-[#151515] text-[7.5vw] leading-[0.85] font-black tracking-tighter">
+      <div className="relative z-20 flex flex-col w-full uppercase text-[#151515] text-[88px] sm:text-[7.5vw] leading-[0.85] font-black tracking-tighter">
         
         {/* TOP ROW */}
         <div className="self-start flex flex-wrap gap-x-4">

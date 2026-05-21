@@ -13,14 +13,14 @@ const Footer = () => {
           <h3 className="text-3xl md:text-4xl font-medium tracking-tight mb-8">
             Sign up for our newsletter today.
           </h3>
-          <div className="flex w-full h-[52px]">
+          <div className="flex h-[52px]">
             <input 
               type="email" 
               placeholder="Your Email" 
               className="bg-[#333333] text-white px-5 flex-1 focus:outline-none placeholder:text-gray-400 text-sm md:text-base"
             />
             {/* Note: Corrected the slight 'SUBSRIBE' typo from the design to 'SUBSCRIBE' */}
-            <button className="bg-white text-black px-8 font-semibold text-sm tracking-wide hover:bg-gray-200 transition-colors">
+            <button className="bg-white text-black px-2 sm:px-8 font-semibold text-sm tracking-wide hover:bg-gray-200 transition-colors">
               SUBSCRIBE
             </button>
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
         {/* Links Grid (Right) */}
-        <div className="flex gap-16 md:gap-24 text-[15px] font-medium tracking-wide">
+        <div className="flex flex-col sm:flex-row gap-16 md:gap-24 text-[15px] font-medium tracking-wide">
           
           {/* Column 1 */}
           <div className="flex flex-col space-y-5">
@@ -81,7 +81,7 @@ const Footer = () => {
           </p>
           
           {/* Custom BOLD Logo with the strikethrough 'O' */}
-          <div className="text-[5rem] md:text-[7rem] font-black tracking-tighter leading-[0.8] flex items-center mt-2 select-none">
+          <div className="text-[2rem] md:text-[7rem] font-black tracking-tighter leading-[0.8] flex items-center mt-2 select-none">
             Frontpage
             <span className="relative flex items-center justify-center mx-1">
               misfits
