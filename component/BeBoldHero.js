@@ -214,7 +214,7 @@ export default function BeBoldHero() {
               <span className="mt-[1.5vw] flex items-center px-2.5 w-[14] h-[14] sm:w-[1.5vw] sm:h-[1.5vw] border border-[#f5311b] rounded-full text-[6px] sm:text-[0.7vw] leading-none font-medium">R</span>
             </h1>
           </div>
-          <div className="absolute top-[47%] px-4 md:px-0 text-center lg:text-left lg:top-[45%] left-[1%] max-w-2xl text-zinc-900 z-10 pointer-events-none">
+          <div className="absolute top-[47%] px-4 md:px-0 text-center lg:text-left lg:top-[45%] left-[1%] max-w-md text-zinc-900 z-10 pointer-events-none">
             <p className="text-lg lg:text-xl font-medium tracking-tight">We work at the intersection of PR, culture, and visual identity — building brands that earn attention organically and stay relevant digitally.</p>
           </div>
           <div className="absolute top-[25%] lg:top-[45%] right-[35%] md:right-[8%] text-black z-10 pointer-events-none">

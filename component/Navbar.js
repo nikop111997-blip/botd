@@ -15,23 +15,29 @@ export default function Navbar() {
 
         {/* LOGO */}
         <div className='block sm:hidden'>
-        <div className="flex items-center gap-2">
-          <span className="text-lg md:text-xl font-bold tracking-tight">
-            Frontpage <span className='font-normal'> misfits</span>
-          </span>
-        
-
-          {/* Registered Circle */}
-          <span className="flex items-center justify-center w-3 h-3 border border-white rounded-full text-[6px] leading-none font-medium mt-[-10px]">
-            R
-          </span>
-        </div>
+         <div className="flex items-center">
+  <Image
+    src="/log2.png"
+    alt="Frontpage Misfits"
+    width={180}
+    height={40}
+    className="
+      h-8 md:h-10 
+      w-auto 
+      invert
+      object-contain 
+      opacity-90
+      mix-blend-difference
+    "
+    priority
+  />
+</div>
 </div>
         {/* DESKTOP MENU */}
         <div className="hidden md:flex justify-between w-full gap-16 text-lg font-medium uppercase tracking-wider">
           <div className="flex items-center">
   <Image
-    src="/log.png"
+    src="/log2.png"
     alt="Frontpage Misfits"
     width={180}
     height={40}
